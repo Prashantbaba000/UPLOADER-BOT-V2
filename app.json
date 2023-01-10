@@ -16,8 +16,8 @@
     "uploader"
   ],
   "success_url": "http://t.me/UploadLinkToFileBot",
-  "website": "https://github.com/LISA-KOREA",
-  "repository": "https://github.com/LISA-KOREA/UPLOADER-BOT-V2",
+  "website": "https://github.com/Prashantbaba000",
+  "repository": "https://github.com/Prashantbaba000/UPLOADER-BOT-V2",
 
   "env": {
     "WEBHOOK": {
@@ -50,20 +50,11 @@
       "value": ""
     }
 
-  },
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 
-  "addons": [ ],
-  "buildpacks": [
-  {
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },
-  {
-    "url": "heroku/python"
-  }],
-  "formation": {
-     "worker": {
-       "quantity": 1,
-       "size": "free"
-     }
-  }
 }
